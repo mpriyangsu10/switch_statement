@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main() {
+    float a,b;
+    char ch;
+    printf("enter the operation  ");
+   scanf("%c",&ch);
+   printf("enter your two number ");
+   scanf("%f%f",&a,&b);
+    switch(ch){
+        case '+':
+        printf("%f+%f=%f",a,b,a+b);
+        break;
+        
+        case '-':
+        printf("%f-%f=%f",a,b,a-b);
+        break;
+       
+       case '*':
+        printf("%f*%f=%f",a,b,a*b);
+        break;
+        default:
+        printf("yout imput are not sutable");
+    
+}
+    return 0;
+}
